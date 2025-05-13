@@ -28,16 +28,16 @@
 
 #環境與模板
 
-- [v] Next.js + Tailwind + TypeScript 開發環境建置 - 5/10
-- [v] Router - App Router 設定 - 5/12
-- [v] Router - 商品選單、List 分類模板 - 5/12
-- [v] Router - header / footer 切版(PC) - 5/12
-- [v] tailwind.config.ts 共用樣式設定 - 5/11
-- [v] 建立 types/index.ts 集中管理 types - 5/12
+- [x] Next.js + Tailwind + TypeScript 開發環境建置 - 5/10
+- [x] Router - App Router 設定 - 5/12
+- [x] Router - 商品選單、List 分類模板 - 5/12
+- [x] Router - header / footer 切版(PC) - 5/12
+- [x] tailwind.config.ts 共用樣式設定 - 5/11
+- [x] 建立 types/index.ts 集中管理 types - 5/12
 
 #元件拆分
 
-- [v] 輪播 Swiper - 5/12
+- [x] 輪播 Swiper - 5/12
 - [ ] product Card
 - [ ] pagination
 - [ ] button/input/select/textarea/checkbox/radio
