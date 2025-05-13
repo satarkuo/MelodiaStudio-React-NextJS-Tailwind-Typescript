@@ -45,30 +45,5 @@ export default function SwipperBanner({ swiperBannerImages }: Props) {
         </SwiperSlide>
       ))}
     </Swiper>
-    // <Swiper
-    //   modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-    //   spaceBetween={0}
-    //   slidesPerView={1}
-    //   onSwiper={(swiper) => (swiperRef.current = swiper)}
-    //   onMouseEnter={pauseSwiper}
-    //   onMouseLeave={resumeSwiper}
-    //   pagination={{ clickable: true }}
-    //   autoplay={{ delay: 3000, disableOnInteraction: false }}
-    //   loop={swiperBannerImages.length >= 2}
-    //   className="w-full"
-    // >
-    //   {swiperBannerImages.map((img, i) => (
-    //     <SwiperSlide key={i} className="relative w-full h-[400px]">
-    //       <Image
-    //         src={img.lg}
-    //         alt={img.title}
-    //         fill
-    //         sizes="100vw"
-    //         className="object-contain"
-    //         priority={i === 0}
-    //       />
-    //     </SwiperSlide>
-    //   ))}
-    // </Swiper>
   );
 }
